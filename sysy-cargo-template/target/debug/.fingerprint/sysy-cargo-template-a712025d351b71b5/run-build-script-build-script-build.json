@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"rustc":13772606232143621802,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[3540539952552733160,"build_script_build",false,12140332456427609272]],"local":[{"Precalculated":"1717490473.762492684s (target/.rustc_info.json)"}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
+=======
+{"rustc":13772606232143621802,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[3540539952552733160,"build_script_build",false,12140332456427609272]],"local":[{"Precalculated":"1717437902.534372617s (target/debug/.fingerprint/sysy-cargo-template-318312597def53be/output-bin-sysy-cargo-template)"}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
+>>>>>>> feature/unary-expression

@@ -1,0 +1,2 @@
+docker run -it --rm -v "$(pwd)":/root/compiler maxxing/compiler-dev \
+autotest -risc -s lv1 /root/compiler
