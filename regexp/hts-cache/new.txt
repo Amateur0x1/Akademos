@@ -1,0 +1,5 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+16:59:38	5254/5254	---M-Z	-1	error ('Open%20error%20when%20decompressing%20(can%20not%20create%20temporary%20file%20/tmp0.z)')	text/html	etag:W/%2264d39a40-24a3%22	https://louiszhai.github.io/robots.txt		(from )
+16:59:38	89603/89603	---M-Z	200	added ('OK')	text/html	etag:W/%22640dccc5-15e03%22	https://louiszhai.github.io/2016/06/13/regexp/	louiszhai.github.io/2016/06/13/regexp/index.html	(from )
+17:00:40	89603/89603	---M-Z	200	added ('OK')	text/html	etag:W/%22640dccc5-15e03%22	http://louiszhai.github.io/2016/06/13/regexp/index.html	louiszhai.github.io/2016/06/13/regexp/index-2.html	(from https://louiszhai.github.io/2016/06/13/regexp/)
+17:00:41	5254/5254	---M-Z	-1	error ('Open%20error%20when%20decompressing%20(can%20not%20create%20temporary%20file%20/tmp1.z)')	text/html	etag:W/%2264d248ca-24a3%22	http://louiszhai.github.io/robots.txt		(from https://louiszhai.github.io/2016/06/13/regexp/)
