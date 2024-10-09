@@ -1,0 +1,15 @@
+{
+  "plugins": ["import"],
+  "rules": {
+    "import/no-unresolved": "error",
+    "import/extensions": ["error", "ignorePackages", {
+      "ts": "never",
+      "tsx": "never"
+    }]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}
