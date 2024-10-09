@@ -1,0 +1,32 @@
+{
+  "name": "js",
+  "version": "0.0.6",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --require ts-node/register 'src/**/*.ts'",
+    "lint": "eslint . --ext .ts,.js",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^5.0.0",
+    "@types/iarna__toml": "^2.0.0",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^22.5.4",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "@typescript-eslint/parser": "^8.4.0",
+    "chai": "^5.1.1",
+    "eslint": "^9.10.0",
+    "eslint-plugin-import": "^2.30.0",
+    "mocha": "^10.7.3",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "toml": "^3.0.0"
+  }
+}
