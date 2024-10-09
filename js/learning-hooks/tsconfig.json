@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                   // 指定最新的 ECMAScript 目标版本
+    "module": "ESNext",                   // 使用 ECMAScript 模块
+    "strict": true,                       // 启用所有严格类型检查选项
+    "esModuleInterop": true,              // 启用对 CommonJS 和 ES 模块的互操作
+    "skipLibCheck": true,                 // 跳过库文件的类型检查
+    "forceConsistentCasingInFileNames": true,  // 对于文件名强制使用一致的大小写
+    "outDir": "./dist",                   // 输出文件夹
+    "rootDir": "./src",                   // 输入文件夹
+    "moduleResolution": "node",           // 使用 Node 的模块解析策略
+    "allowSyntheticDefaultImports": true, // 允许合成默认导入，以支持没有默认导出的模块
+    "resolveJsonModule": true,            // 允许引入 JSON 模块
+    "isolatedModules": true,              // 每个文件单独编译
+    "noEmitOnError": true                 // 编译出错时不输出
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
