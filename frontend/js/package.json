@@ -5,7 +5,7 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "test": "mocha --require ts-node/register 'src/**/*.ts'",
+    "test": "mocha --loader=ts-node/esm 'src/**/*.ts'",
     "lint": "eslint . --ext .ts,.js",
     "format": "prettier --write ."
   },
